@@ -1,0 +1,11 @@
+---
+- name: Deploy app
+  hosts: "{{ env }}"
+  gather_facts: no
+
+  vars_files:
+    - "deploy/{{ env }}.yml"
+
+  tasks:
+    - name: Test connection (PING)
+      ping: 

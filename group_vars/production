@@ -1,0 +1,4 @@
+---
+ansible_user: unistream-transfer
+ansible_connection: ssh
+ansible_become: false

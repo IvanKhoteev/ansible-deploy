@@ -1,0 +1,4 @@
+---
+ansible_user: shopper-redesign
+ansible_connection: ssh
+ansible_become: false
