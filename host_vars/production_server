@@ -1,3 +1,0 @@
----
-ansible_user: production-server-user
-ansible_host: production-domain-name

@@ -1,3 +1,0 @@
----
-ansible_user: testing-server-user
-ansible_host: testing-domain-name
